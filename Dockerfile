@@ -1,6 +1,6 @@
 FROM node:18 as builder
 
-WORKDIR /build
+WORKDIR /build 
 
 COPY package*.json .
 RUN npm install
